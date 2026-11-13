@@ -19,11 +19,9 @@ Galaxy XR support is by [@stearnsbq](https://github.com/stearnsbq), with the
 headset module.
 
 > **Fork note (ArcticTechy):** This fork aims to adapt QuestLHSync for use with
-> **Monado** and **WiVRn** on Linux. The original SteamVR driver path remains
-> intact. Work on a Monado-compatible alignment injector / tracking-origin
-> corrector is planned so continuous camera-based alignment can be used without
-> SteamVR. The existing Quest Magisk module should continue to work as the
-> data source.
+> **Monado** and **WiVRn** on Linux. See [docs/MONADO.md](docs/MONADO.md) and the
+> `monado-wivrn` branch (skeleton service under `linux/monado_lhsync/`).
+> The original SteamVR path remains intact on `master`.
 
 ![The QuestLHSync dashboard page](docs/dashboard.png)
 
