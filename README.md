@@ -18,6 +18,13 @@ Galaxy XR support is by [@stearnsbq](https://github.com/stearnsbq), with the
 [questlhsync-galaxy-xr](https://github.com/stearnsbq/questlhsync-galaxy-xr)
 headset module.
 
+> **Fork note (ArcticTechy):** This fork aims to adapt QuestLHSync for use with
+> **Monado** and **WiVRn** on Linux. The original SteamVR driver path remains
+> intact. Work on a Monado-compatible alignment injector / tracking-origin
+> corrector is planned so continuous camera-based alignment can be used without
+> SteamVR. The existing Quest Magisk module should continue to work as the
+> data source.
+
 ![The QuestLHSync dashboard page](docs/dashboard.png)
 
 ## Requirements
